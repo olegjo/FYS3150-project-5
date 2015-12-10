@@ -1,0 +1,19 @@
+\begin{thebibliography}{1}
+
+\bibitem{farnell2005monte}
+L~Farnell and WG~Gibson.
+\newblock Monte carlo simulation of diffusion in a spatially nonhomogeneous
+  medium: A biased random walk on an asymmetrical lattice.
+\newblock {\em Journal of Computational Physics}, 208(1):253--265, 2005.
+
+\bibitem{project1}
+Ole~Gunnar Johansen.
+\newblock {FYS}3150 {P}roject 1.
+\newblock 2015.
+
+\bibitem{pasquini2006tridiagonal}
+Silvia Noschese1~Lionello Pasquini and Lothar Reichel.
+\newblock Tridiagonal toeplitz matrices: Properties and novel applications.
+\newblock 2006.
+
+\end{thebibliography}

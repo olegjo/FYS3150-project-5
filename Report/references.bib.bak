@@ -1,0 +1,22 @@
+@article{pasquini2006tridiagonal,
+  title={Tridiagonal Toeplitz Matrices: Properties and Novel Applications},
+  author={Pasquini, Silvia Noschese1 Lionello and Reichel, Lothar},
+  year={2006}
+}
+
+@article{project1,
+  title={{FYS}3150 {P}roject 1},
+  author={Ole Gunnar Johansen},
+  year={2015}
+}
+
+@article{farnell2005monte,
+  title={Monte Carlo simulation of diffusion in a spatially nonhomogeneous medium: A biased random walk on an asymmetrical lattice},
+  author={Farnell, L and Gibson, WG},
+  journal={Journal of Computational Physics},
+  volume={208},
+  number={1},
+  pages={253--265},
+  year={2005},
+  publisher={Elsevier}
+}
