@@ -88,6 +88,7 @@ In this report, I investigate the properties of the forward Euler, backward Eule
 
 I also look at the diffusion process as a series of random walkers walking across the synaptic cleft and find that the best results are obtained when the particles are constrained to move with a constant step length, as compared to one with a normal distribution. In light of these results I propose an explanation of the underlying physics of this particular diffusion process and how the density of the diffusive medium may alter the results in a way that renders the normally distributed step lengths a more feasible approach.
 
+All source code is made available at my GitHub\footnote{\url{https://github.com/olegjo/FYS3150-project-5}}.
 
 
 \end{abstract}
@@ -99,8 +100,8 @@ I also look at the diffusion process as a series of random walkers walking acros
 	
 	\begin{figure}
 		\centering
-		\includegraphics[scale=0.10]{Blausen_0657_MultipolarNeuron}%
-		\includegraphics[scale=0.14]{synapse_drawing}
+		\includegraphics[scale=0.10]{Figures/Blausen_0657_MultipolarNeuron}%
+		\includegraphics[scale=0.14]{Figures/synapse_drawing}
 		\caption{Schematic overview of a neuron. The neurotransmitters are released by the axons of one neuron onto the dendrites of the other.\\ \scriptsize  Left: \url{https://upload.wikimedia.org/wikipedia/commons/1/10/Blausen_0657_MultipolarNeuron.png} \\
 		Right: Thompson: ''The Brain'', Worth Publ., 2000}
 		\label{fig: drawing neuron and synapse}
@@ -112,7 +113,7 @@ I also look at the diffusion process as a series of random walkers walking acros
 	The process in question is initiated by an action potential reaching the axon terminal which causes the vesicles inside the axon terminal to join with the pre-synaptic membrane which in turn causes the release of the neurotransmitters into the synaptic cleft. On the other side of the synaptic cleft sits the dendrite, or post-synaptic terminal, which receives the neurotransmitters. Fig.~\ref{fig: synaptic cleft schematic} shows the situation.
 	\begin{figure}
 		\centering
-		\includegraphics[scale=1]{synaptic_cleft.pdf}
+		\includegraphics[scale=1]{Figures/synaptic_cleft.pdf}
 		\caption{Schematic drawing of the 1D synaptic cleft. The black dots represents a neurotransmitter. The figure shows no neurotransmitters in the synaptic cleft and represents thus the situation immediately after the release of neurotransmitters.}
 		\label{fig: synaptic cleft schematic}
 	\end{figure}
@@ -527,17 +528,17 @@ for (int i = 0; T <= t_stop; i++) {
 		\afterpage{
 		\begin{figure}
 			\centering
-			\includegraphics[width=0.49\linewidth, clip=true, trim=0 5 0 29]{../FYS3150_project_5_differential_dx01_curved.pdf}%
-			\includegraphics[width=0.49\linewidth, clip=true, trim=0 5 0 29]{../FYS3150_project_5_differential_error_dx01_curved.pdf}
+			\includegraphics[width=0.49\linewidth, clip=true, trim=0 5 0 29]{Figures/FYS3150_project_5_differential_dx01_curved.pdf}%
+			\includegraphics[width=0.49\linewidth, clip=true, trim=0 5 0 29]{Figures/FYS3150_project_5_differential_error_dx01_curved.pdf}
 
-			\includegraphics[width=0.49\linewidth, clip=true, trim=0 5 0 29]{../FYS3150_project_5_differential_dx001_curved.pdf}%
-			\includegraphics[width=0.49\linewidth, clip=true, trim=0 5 0 29]{../FYS3150_project_5_differential_error_dx001_curved.pdf}
+			\includegraphics[width=0.49\linewidth, clip=true, trim=0 5 0 29]{Figures/FYS3150_project_5_differential_dx001_curved.pdf}%
+			\includegraphics[width=0.49\linewidth, clip=true, trim=0 5 0 29]{Figures/FYS3150_project_5_differential_error_dx001_curved.pdf}
 
-			\includegraphics[width=0.49\linewidth, clip=true, trim=0 5 0 29]{../FYS3150_project_5_differential_dx01_linear.pdf}%
-			\includegraphics[width=0.49\linewidth, clip=true, trim=0 5 0 29]{../FYS3150_project_5_differential_error_dx01_linear.pdf}
+			\includegraphics[width=0.49\linewidth, clip=true, trim=0 5 0 29]{Figures/FYS3150_project_5_differential_dx01_linear.pdf}%
+			\includegraphics[width=0.49\linewidth, clip=true, trim=0 5 0 29]{Figures/FYS3150_project_5_differential_error_dx01_linear.pdf}
 
-			\includegraphics[width=0.49\linewidth, clip=true, trim=0 5 0 29]{../FYS3150_project_5_differential_dx001_linear.pdf}%
-			\includegraphics[width=0.49\linewidth, clip=true, trim=0 5 0 29]{../FYS3150_project_5_differential_error_dx001_linear.pdf}
+			\includegraphics[width=0.49\linewidth, clip=true, trim=0 5 0 29]{Figures/FYS3150_project_5_differential_dx001_linear.pdf}%
+			\includegraphics[width=0.49\linewidth, clip=true, trim=0 5 0 29]{Figures/FYS3150_project_5_differential_error_dx001_linear.pdf}
 			
 			\caption{Plot of the numerical solution of the diffusion process using the three different differential schemes using different step-length $\Delta x=1/10$ and $\Delta x = 1/100$ , at two different times in the simulation. As wee see, the solution approaches the steady state $u(x) = 1-x$.}
 			\label{fig: differentials all results}
@@ -557,16 +558,16 @@ for (int i = 0; T <= t_stop; i++) {
 		It should also be said that the CPU-time required is much greater for the normally distributed step length, than for the constant step length, and the total number of particles after the computation is done is orders of magnitude greater in the former case.
 		\begin{figure}
 			\centering
-			\includegraphics[width=0.5\linewidth]{../RandomWalk_constant_step_T01}%
-			\includegraphics[width=0.5\linewidth]{../RandomWalk_constant_step_T03}
+			\includegraphics[width=0.5\linewidth]{Figures/RandomWalk_constant_step_T01}%
+			\includegraphics[width=0.5\linewidth]{Figures/RandomWalk_constant_step_T03}
 			\caption{Histogram of the positions of the random walkers with constant step length. The analytical solution is also plotted, and the agreement is remarkable.}
 			\label{fig: histogram random walkers constant step}
 		\end{figure}
 		\begin{figure}
 			\centering
-			\includegraphics[width=0.5\linewidth]{../RandomWalk_gaussian_step_T01}%
-			\includegraphics[width=0.5\linewidth]{../RandomWalk_gaussian_step_T03}
-			\includegraphics[width=0.5\linewidth]{../RandomWalk_gaussian_step_T05}
+			\includegraphics[width=0.5\linewidth]{Figures/RandomWalk_gaussian_step_T01}%
+			\includegraphics[width=0.5\linewidth]{Figures/RandomWalk_gaussian_step_T03}
+			\includegraphics[width=0.5\linewidth]{Figures/RandomWalk_gaussian_step_T05}
 			\caption{Histogram of the positions of the random walkers at two points in time. The walkers are moving with a random step length $l_0 = \sqrt{2\Delta t}\xi$ where $\xi$ is a random number from the normal distribution with average 0 and standard deviate 1.}
 			\label{fig: histogram random walkers gaussian step}
 		\end{figure}

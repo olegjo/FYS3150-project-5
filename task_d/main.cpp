@@ -2,12 +2,12 @@
 #include "../partial_ODE.h"
 using namespace std;
 
-int main()
+int main(int argc, char* argv[])
 {
 
     // initialization
-    double dx = 0.01;       // 0.01
-    double t_stop = 0.3;    // stop computing after this much time
+    double dx = stod(argv[1]);
+    double t_stop = stod(argv[2]);    // stop computing after this much time
     int N_x = 1.0/dx + 1;   // Number of steps in the x-dimension
     double* v_initial = new double[N_x];
     double* v_fEuler  = new double[N_x];
@@ -40,13 +40,14 @@ int main()
     // print to files
     string filename;
 
-    filename = "ForwardEuler_0.01_linear.txt";
+    string extension = argv[3];
+    filename = "ForwardEuler_"+extension+".txt";
     outputToFile(filename, v_fEuler, dx, N_x);
 
-    filename = "BackwardEuler_0.01_linear.txt";
+    filename = "BackwardEuler_"+extension+".txt";
     outputToFile(filename, v_bEuler, dx, N_x);
 
-    filename = "CrankNickolson_0.01_linear.txt";
+    filename = "CrankNickolson_"+extension+".txt";
     outputToFile(filename, v_CN, dx, N_x);
 
 
