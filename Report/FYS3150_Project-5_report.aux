@@ -24,42 +24,42 @@
 \newlabel{fig: drawing neuron and synapse}{{1}{2}{Schematic overview of a neuron. The neurotransmitters are released by the axons of one neuron onto the dendrites of the other.\\ \scriptsize Left: \url {https://upload.wikimedia.org/wikipedia/commons/1/10/Blausen_0657_MultipolarNeuron.png} \\ Right: Thompson: ''The Brain'', Worth Publ., 2000\relax }{figure.caption.1}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Schematic drawing of the 1D synaptic cleft. The black dots represents a neurotransmitter. The figure shows no neurotransmitters in the synaptic cleft and represents thus the situation immediately after the release of neurotransmitters.\relax }}{2}{figure.caption.2}}
 \newlabel{fig: synaptic cleft schematic}{{2}{2}{Schematic drawing of the 1D synaptic cleft. The black dots represents a neurotransmitter. The figure shows no neurotransmitters in the synaptic cleft and represents thus the situation immediately after the release of neurotransmitters.\relax }{figure.caption.2}{}}
-\newlabel{eq: diffusion 1+3D}{{1}{3}{Theory/Methods}{equation.2.1}{}}
+\newlabel{eq: diffusion 1+3D}{{1}{2}{Theory/Methods}{equation.2.1}{}}
 \newlabel{eq: diffusion 1+1D}{{2}{3}{Theory/Methods}{equation.2.2}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Steady state and Analytical solution}{3}{subsection.2.1}}
-\newlabel{eq: diffusion eq. excess}{{3}{4}{Steady state and Analytical solution}{equation.2.3}{}}
+\newlabel{eq: diffusion eq. excess}{{3}{3}{Steady state and Analytical solution}{equation.2.3}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Forward Euler Scheme}{5}{subsection.2.2}}
-\newlabel{eq: forward euler}{{5}{6}{Forward Euler Scheme}{equation.2.5}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.1}Matrix-Vector and Stability}{6}{subsubsection.2.2.1}}
+\newlabel{eq: forward euler}{{5}{5}{Forward Euler Scheme}{equation.2.5}{}}
 \citation{pasquini2006tridiagonal}
-\newlabel{eq: forward euler stability}{{6}{7}{Matrix-Vector and Stability}{equation.2.6}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.1}Matrix-Vector and Stability}{6}{subsubsection.2.2.1}}
 \citation{project1}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Backward Euler Scheme}{8}{subsection.2.3}}
-\newlabel{eq: backward euler}{{7}{8}{Backward Euler Scheme}{equation.2.7}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.1}Matrix-Vector and Stability}{8}{subsubsection.2.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Crank-Nicolson Scheme}{9}{subsection.2.4}}
+\newlabel{eq: forward euler stability}{{6}{7}{Matrix-Vector and Stability}{equation.2.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Backward Euler Scheme}{7}{subsection.2.3}}
+\newlabel{eq: backward euler}{{7}{7}{Backward Euler Scheme}{equation.2.7}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.1}Matrix-Vector and Stability}{7}{subsubsection.2.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Crank-Nicolson Scheme}{8}{subsection.2.4}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {2.4.1}Matrix-Vector and Stability}{9}{subsubsection.2.4.1}}
 \newlabel{eq: CN scheme matrix vector}{{10}{9}{Matrix-Vector and Stability}{equation.2.10}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Random walk}{10}{subsection.2.5}}
 \citation{farnell2005monte}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.5.1}Constant Step Length}{11}{subsubsection.2.5.1}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.5.2}Gaussian Step Length}{11}{subsubsection.2.5.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Random walk}{10}{subsection.2.5}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.5.1}Constant Step Length}{10}{subsubsection.2.5.1}}
 \citation{project1}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.5.2}Gaussian Step Length}{11}{subsubsection.2.5.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Results and Discussion}{11}{section.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Differential schemes}{11}{subsection.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Random walk}{11}{subsection.3.2}}
 \@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Root mean square error for the different differential methods for different steps $\Delta x$ and at two time points in the simulation.\relax }}{12}{table.caption.3}}
 \newlabel{table: errors from differential methods}{{1}{12}{Root mean square error for the different differential methods for different steps $\Delta x$ and at two time points in the simulation.\relax }{table.caption.3}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {3}Results and Discussion}{12}{section.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Differential schemes}{12}{subsection.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Random walk}{12}{subsection.3.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Code Verification}{13}{subsection.3.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {4}Conclusion}{13}{section.4}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Plot of the numerical solution of the diffusion process using the three different differential schemes using different step-length $\Delta x=1/10$ and $\Delta x = 1/100$ , at two different times in the simulation. As wee see, the solution approaches the steady state $u(x) = 1-x$.\relax }}{14}{figure.caption.4}}
-\newlabel{fig: differentials all results}{{3}{14}{Plot of the numerical solution of the diffusion process using the three different differential schemes using different step-length $\Delta x=1/10$ and $\Delta x = 1/100$ , at two different times in the simulation. As wee see, the solution approaches the steady state $u(x) = 1-x$.\relax }{figure.caption.4}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Histogram of the positions of the random walkers with constant step length. The analytical solution is also plotted, and the agreement is remarkable.\relax }}{15}{figure.caption.5}}
-\newlabel{fig: histogram random walkers constant step}{{4}{15}{Histogram of the positions of the random walkers with constant step length. The analytical solution is also plotted, and the agreement is remarkable.\relax }{figure.caption.5}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Histogram of the positions of the random walkers at two points in time. The walkers are moving with a random step length $l_0 = \sqrt  {2\Delta t}\xi $ where $\xi $ is a random number from the normal distribution with average 0 and standard deviate 1.\relax }}{15}{figure.caption.6}}
-\newlabel{fig: histogram random walkers gaussian step}{{5}{15}{Histogram of the positions of the random walkers at two points in time. The walkers are moving with a random step length $l_0 = \sqrt {2\Delta t}\xi $ where $\xi $ is a random number from the normal distribution with average 0 and standard deviate 1.\relax }{figure.caption.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Code Verification}{12}{subsection.3.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Plot of the numerical solution of the diffusion process using the three different differential schemes using different step-length $\Delta x=1/10$ and $\Delta x = 1/100$ , at two different times in the simulation. As wee see, the solution approaches the steady state $u(x) = 1-x$.\relax }}{13}{figure.caption.4}}
+\newlabel{fig: differentials all results}{{3}{13}{Plot of the numerical solution of the diffusion process using the three different differential schemes using different step-length $\Delta x=1/10$ and $\Delta x = 1/100$ , at two different times in the simulation. As wee see, the solution approaches the steady state $u(x) = 1-x$.\relax }{figure.caption.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Histogram of the positions of the random walkers with constant step length. The analytical solution is also plotted, and the agreement is remarkable.\relax }}{14}{figure.caption.5}}
+\newlabel{fig: histogram random walkers constant step}{{4}{14}{Histogram of the positions of the random walkers with constant step length. The analytical solution is also plotted, and the agreement is remarkable.\relax }{figure.caption.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Histogram of the positions of the random walkers at two points in time. The walkers are moving with a random step length $l_0 = \sqrt  {2\Delta t}\xi $ where $\xi $ is a random number from the normal distribution with average 0 and standard deviate 1.\relax }}{14}{figure.caption.6}}
+\newlabel{fig: histogram random walkers gaussian step}{{5}{14}{Histogram of the positions of the random walkers at two points in time. The walkers are moving with a random step length $l_0 = \sqrt {2\Delta t}\xi $ where $\xi $ is a random number from the normal distribution with average 0 and standard deviate 1.\relax }{figure.caption.6}{}}
 \bibstyle{plain}
 \bibdata{references}
 \bibcite{farnell2005monte}{1}
 \bibcite{project1}{2}
 \bibcite{pasquini2006tridiagonal}{3}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Conclusion}{15}{section.4}}

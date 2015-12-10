@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.20)  10 DEC 2015 22:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.20)  10 DEC 2015 22:27
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -649,26 +649,7 @@ LaTeX Font Info:    Try loading font information for OMS+rsfs on input line 81.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/calrsfs/OMSrsfs.fd)
-<Figures/Blausen_0657_MultipolarNeuron.png, id=74, 2509.375pt x 1618.045pt>
-File: Figures/Blausen_0657_MultipolarNeuron.png Graphic file (type png)
-
-<use Figures/Blausen_0657_MultipolarNeuron.png>
-Package pdftex.def Info: Figures/Blausen_0657_MultipolarNeuron.png used on inpu
-t line 102.
-(pdftex.def)             Requested size: 250.9522pt x 161.81398pt.
-
-<Figures/synapse_drawing.pdf, id=75, 1327.96124pt x 1182.4175pt>
-File: Figures/synapse_drawing.pdf Graphic file (type pdf)
-
-<use Figures/synapse_drawing.pdf>
-Package pdftex.def Info: Figures/synapse_drawing.pdf used on input line 103.
-(pdftex.def)             Requested size: 185.9133pt x 165.53732pt.
-
-Overfull \hbox (6.86087pt too wide) in paragraph at lines 102--105
- [][][] 
- []
-
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 105.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 91.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -678,11 +659,30 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-<Figures/synaptic_cleft.pdf, id=79, 294.81232pt x 89.47041pt>
+<Figures/Blausen_0657_MultipolarNeuron.png, id=76, 2509.375pt x 1618.045pt>
+File: Figures/Blausen_0657_MultipolarNeuron.png Graphic file (type png)
+
+<use Figures/Blausen_0657_MultipolarNeuron.png>
+Package pdftex.def Info: Figures/Blausen_0657_MultipolarNeuron.png used on inpu
+t line 103.
+(pdftex.def)             Requested size: 250.9522pt x 161.81398pt.
+
+<Figures/synapse_drawing.pdf, id=77, 1327.96124pt x 1182.4175pt>
+File: Figures/synapse_drawing.pdf Graphic file (type pdf)
+
+<use Figures/synapse_drawing.pdf>
+Package pdftex.def Info: Figures/synapse_drawing.pdf used on input line 104.
+(pdftex.def)             Requested size: 185.9133pt x 165.53732pt.
+
+Overfull \hbox (6.86087pt too wide) in paragraph at lines 103--106
+ [][][] 
+ []
+
+<Figures/synaptic_cleft.pdf, id=81, 294.81232pt x 89.47041pt>
 File: Figures/synaptic_cleft.pdf Graphic file (type pdf)
 
 <use Figures/synaptic_cleft.pdf>
-Package pdftex.def Info: Figures/synaptic_cleft.pdf used on input line 115.
+Package pdftex.def Info: Figures/synaptic_cleft.pdf used on input line 116.
 (pdftex.def)             Requested size: 294.81158pt x 89.47018pt.
 
 
@@ -695,142 +695,142 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 [2 <./Figures/Blausen_0657_MultipolarNeuron.png> <./Figures/synapse_drawing.pdf
-> <./Figures/synaptic_cleft.pdf>] [3] [4] [5]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 260.
+> <./Figures/synaptic_cleft.pdf>] [3] [4]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 261.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 260.
- [6] [7] [8]
-[9] [10] [11] [12]
-<Figures/FYS3150_project_5_differential_dx01_curved.pdf, id=330, 578.16pt x 433
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 261.
+ [5] [6] [7]
+[8] [9] [10] [11]
+<Figures/FYS3150_project_5_differential_dx01_curved.pdf, id=329, 578.16pt x 433
 .62pt>
 File: Figures/FYS3150_project_5_differential_dx01_curved.pdf Graphic file (type
  pdf)
  <use Figures/FYS3150_project_5_differential_dx01_curved.pdf>
 Package pdftex.def Info: Figures/FYS3150_project_5_differential_dx01_curved.pdf
- used on input line 552.
+ used on input line 549.
 (pdftex.def)             Requested size: 210.70462pt x 145.59102pt.
 
-<Figures/FYS3150_project_5_differential_error_dx01_curved.pdf, id=332, 578.16pt
+<Figures/FYS3150_project_5_differential_error_dx01_curved.pdf, id=331, 578.16pt
  x 433.62pt>
 File: Figures/FYS3150_project_5_differential_error_dx01_curved.pdf Graphic file
  (type pdf)
 
 <use Figures/FYS3150_project_5_differential_error_dx01_curved.pdf>
 Package pdftex.def Info: Figures/FYS3150_project_5_differential_error_dx01_curv
-ed.pdf used on input line 552.
+ed.pdf used on input line 549.
 (pdftex.def)             Requested size: 210.70462pt x 145.59102pt.
 
-<Figures/FYS3150_project_5_differential_dx001_curved.pdf, id=334, 578.16pt x 43
+<Figures/FYS3150_project_5_differential_dx001_curved.pdf, id=333, 578.16pt x 43
 3.62pt>
 File: Figures/FYS3150_project_5_differential_dx001_curved.pdf Graphic file (typ
 e pdf)
  <use Figures/FYS3150_project_5_differential_dx001_curved.pdf>
 Package pdftex.def Info: Figures/FYS3150_project_5_differential_dx001_curved.pd
-f used on input line 552.
+f used on input line 549.
 (pdftex.def)             Requested size: 210.70462pt x 145.59102pt.
 
-<Figures/FYS3150_project_5_differential_error_dx001_curved.pdf, id=336, 578.16p
+<Figures/FYS3150_project_5_differential_error_dx001_curved.pdf, id=335, 578.16p
 t x 433.62pt>
 File: Figures/FYS3150_project_5_differential_error_dx001_curved.pdf Graphic fil
 e (type pdf)
 
 <use Figures/FYS3150_project_5_differential_error_dx001_curved.pdf>
 Package pdftex.def Info: Figures/FYS3150_project_5_differential_error_dx001_cur
-ved.pdf used on input line 552.
+ved.pdf used on input line 549.
 (pdftex.def)             Requested size: 210.70462pt x 145.59102pt.
 
-<Figures/FYS3150_project_5_differential_dx01_linear.pdf, id=338, 578.16pt x 433
+<Figures/FYS3150_project_5_differential_dx01_linear.pdf, id=337, 578.16pt x 433
 .62pt>
 File: Figures/FYS3150_project_5_differential_dx01_linear.pdf Graphic file (type
  pdf)
  <use Figures/FYS3150_project_5_differential_dx01_linear.pdf>
 Package pdftex.def Info: Figures/FYS3150_project_5_differential_dx01_linear.pdf
- used on input line 552.
+ used on input line 549.
 (pdftex.def)             Requested size: 210.70462pt x 145.59102pt.
 
-<Figures/FYS3150_project_5_differential_error_dx01_linear.pdf, id=340, 578.16pt
+<Figures/FYS3150_project_5_differential_error_dx01_linear.pdf, id=339, 578.16pt
  x 433.62pt>
 File: Figures/FYS3150_project_5_differential_error_dx01_linear.pdf Graphic file
  (type pdf)
 
 <use Figures/FYS3150_project_5_differential_error_dx01_linear.pdf>
 Package pdftex.def Info: Figures/FYS3150_project_5_differential_error_dx01_line
-ar.pdf used on input line 552.
+ar.pdf used on input line 549.
 (pdftex.def)             Requested size: 210.70462pt x 145.59102pt.
 
-<Figures/FYS3150_project_5_differential_dx001_linear.pdf, id=342, 578.16pt x 43
+<Figures/FYS3150_project_5_differential_dx001_linear.pdf, id=341, 578.16pt x 43
 3.62pt>
 File: Figures/FYS3150_project_5_differential_dx001_linear.pdf Graphic file (typ
 e pdf)
  <use Figures/FYS3150_project_5_differential_dx001_linear.pdf>
 Package pdftex.def Info: Figures/FYS3150_project_5_differential_dx001_linear.pd
-f used on input line 552.
+f used on input line 549.
 (pdftex.def)             Requested size: 210.70462pt x 145.59102pt.
 
-<Figures/FYS3150_project_5_differential_error_dx001_linear.pdf, id=344, 578.16p
+<Figures/FYS3150_project_5_differential_error_dx001_linear.pdf, id=343, 578.16p
 t x 433.62pt>
 File: Figures/FYS3150_project_5_differential_error_dx001_linear.pdf Graphic fil
 e (type pdf)
 
 <use Figures/FYS3150_project_5_differential_error_dx001_linear.pdf>
 Package pdftex.def Info: Figures/FYS3150_project_5_differential_error_dx001_lin
-ear.pdf used on input line 552.
+ear.pdf used on input line 549.
 (pdftex.def)             Requested size: 210.70462pt x 145.59102pt.
 
 
-LaTeX Warning: Float too large for page by 22.84027pt on input line 552.
+LaTeX Warning: Float too large for page by 22.84027pt on input line 549.
 
-<Figures/RandomWalk_constant_step_T01.pdf, id=346, 578.16pt x 433.62pt>
+<Figures/RandomWalk_constant_step_T01.pdf, id=347, 578.16pt x 433.62pt>
 File: Figures/RandomWalk_constant_step_T01.pdf Graphic file (type pdf)
 
 <use Figures/RandomWalk_constant_step_T01.pdf>
 Package pdftex.def Info: Figures/RandomWalk_constant_step_T01.pdf used on input
- line 560.
+ line 561.
 (pdftex.def)             Requested size: 215.0023pt x 161.25072pt.
 
-<Figures/RandomWalk_constant_step_T03.pdf, id=347, 578.16pt x 433.62pt>
+<Figures/RandomWalk_constant_step_T03.pdf, id=348, 578.16pt x 433.62pt>
 File: Figures/RandomWalk_constant_step_T03.pdf Graphic file (type pdf)
 
 <use Figures/RandomWalk_constant_step_T03.pdf>
 Package pdftex.def Info: Figures/RandomWalk_constant_step_T03.pdf used on input
- line 561.
+ line 562.
 (pdftex.def)             Requested size: 215.0023pt x 161.25072pt.
 
-<Figures/RandomWalk_gaussian_step_T01.pdf, id=348, 578.16pt x 433.62pt>
+<Figures/RandomWalk_gaussian_step_T01.pdf, id=349, 578.16pt x 433.62pt>
 File: Figures/RandomWalk_gaussian_step_T01.pdf Graphic file (type pdf)
 
 <use Figures/RandomWalk_gaussian_step_T01.pdf>
 Package pdftex.def Info: Figures/RandomWalk_gaussian_step_T01.pdf used on input
- line 567.
+ line 568.
 (pdftex.def)             Requested size: 215.0023pt x 161.25072pt.
 
-<Figures/RandomWalk_gaussian_step_T03.pdf, id=349, 578.16pt x 433.62pt>
+<Figures/RandomWalk_gaussian_step_T03.pdf, id=350, 578.16pt x 433.62pt>
 File: Figures/RandomWalk_gaussian_step_T03.pdf Graphic file (type pdf)
 
 <use Figures/RandomWalk_gaussian_step_T03.pdf>
 Package pdftex.def Info: Figures/RandomWalk_gaussian_step_T03.pdf used on input
- line 568.
+ line 569.
 (pdftex.def)             Requested size: 215.0023pt x 161.25072pt.
 
-<Figures/RandomWalk_gaussian_step_T05.pdf, id=350, 578.16pt x 433.62pt>
+<Figures/RandomWalk_gaussian_step_T05.pdf, id=351, 578.16pt x 433.62pt>
 File: Figures/RandomWalk_gaussian_step_T05.pdf Graphic file (type pdf)
 
 <use Figures/RandomWalk_gaussian_step_T05.pdf>
 Package pdftex.def Info: Figures/RandomWalk_gaussian_step_T05.pdf used on input
- line 569.
+ line 570.
 (pdftex.def)             Requested size: 215.0023pt x 161.25072pt.
- [13] [14 <./Figures/FYS3150_project_5_differential_dx01_curved.pdf> <./Figures
+ [12] [13 <./Figures/FYS3150_project_5_differential_dx01_curved.pdf> <./Figures
 /FYS3150_project_5_differential_error_dx01_curved.pdf> <./Figures/FYS3150_proje
 ct_5_differential_dx001_curved.pdf> <./Figures/FYS3150_project_5_differential_e
 rror_dx001_curved.pdf> <./Figures/FYS3150_project_5_differential_dx01_linear.pd
 f> <./Figures/FYS3150_project_5_differential_error_dx01_linear.pdf> <./Figures/
 FYS3150_project_5_differential_dx001_linear.pdf> <./Figures/FYS3150_project_5_d
-ifferential_error_dx001_linear.pdf>] [15 <./Figures/RandomWalk_constant_step_T0
+ifferential_error_dx001_linear.pdf>] [14 <./Figures/RandomWalk_constant_step_T0
 1.pdf> <./Figures/RandomWalk_constant_step_T03.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/RandomWalk_constan
@@ -852,12 +852,12 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Figures/RandomWalk_gaussia
 n_step_T05.pdf): PDF inclusion: multiple pdfs with page group included in a sin
 gle page
 >] (./FYS3150_Project-5_report.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 594.
- [16]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 594.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 595.
+ [15]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 595.
  (./FYS3150_Project-5_report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 594.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 594.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 595.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 595.
 Package rerunfilecheck Info: File `FYS3150_Project-5_report.out' has not change
 d.
 (rerunfilecheck)             Checksum: BEB904AE1FE6E28E5748AD1BC62A8CFF;1171.
@@ -866,14 +866,14 @@ d.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.6pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 594.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 595.
  ) 
 Here is how much of TeX's memory you used:
- 12781 strings out of 493089
- 196121 string characters out of 6134841
- 356135 words of memory out of 5000000
- 15775 multiletter control sequences out of 15000+600000
- 32497 words of font info for 148 fonts, out of 8000000 for 9000
+ 12819 strings out of 493089
+ 196627 string characters out of 6134841
+ 357135 words of memory out of 5000000
+ 15797 multiletter control sequences out of 15000+600000
+ 37041 words of font info for 163 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,14n,97p,746b,1257s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
@@ -890,22 +890,25 @@ ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive
 /2015/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2015/te
 xmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2015/texm
 f-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2015/texmf-
-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2015/texmf-di
-st/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2015/texmf-dist
-/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2015/texmf-dist/f
-onts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2015/texmf-dist/fon
-ts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2015/texmf-dist/fonts
-/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
-ype1/public/cm-super/sftt0800.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
-e1/public/cm-super/sftt1095.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
-/public/cm-super/sfxc1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/p
-ublic/cm-super/sfxc1095.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pub
-lic/cm-super/sfxc1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
-c/cm-super/sfxc1440.pfb>
-Output written on FYS3150_Project-5_report.pdf (16 pages, 3169868 bytes).
+dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2015/texmf-di
+st/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2015/texmf-dist
+/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2015/texmf-dist/f
+onts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2015/texmf-dist/fon
+ts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2015/texmf-dist/fonts
+/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
+ype1/public/cm-super/sfti1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
+e1/public/cm-super/sfti1095.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
+/public/cm-super/sftt0800.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/p
+ublic/cm-super/sftt0900.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pub
+lic/cm-super/sftt1095.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
+c/cm-super/sfxc1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/
+cm-super/sfxc1095.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm
+-super/sfxc1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-s
+uper/sfxc1440.pfb>
+Output written on FYS3150_Project-5_report.pdf (15 pages, 3215422 bytes).
 PDF statistics:
- 1160 PDF objects out of 1200 (max. 8388607)
- 573 compressed objects within 6 object streams
+ 1171 PDF objects out of 1200 (max. 8388607)
+ 582 compressed objects within 6 object streams
  116 named destinations out of 1000 (max. 500000)
- 30473 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 36105 words of extra memory for PDF output out of 42996 (max. 10000000)
 
